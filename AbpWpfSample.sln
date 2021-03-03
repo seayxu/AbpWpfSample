@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0BDAA787-87C9-4A19-A6C8-B8D0E49E0CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpWpfHosting", "src\AbpWpfHosting\AbpWpfHosting.csproj", "{E80FDE1E-5588-443C-8272-F90CEC176864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "src\WpfApp1\WpfApp1.csproj", "{AC5A560E-D8A5-45DC-B406-62CDD7E413F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E80FDE1E-5588-443C-8272-F90CEC176864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80FDE1E-5588-443C-8272-F90CEC176864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80FDE1E-5588-443C-8272-F90CEC176864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80FDE1E-5588-443C-8272-F90CEC176864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5A560E-D8A5-45DC-B406-62CDD7E413F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5A560E-D8A5-45DC-B406-62CDD7E413F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5A560E-D8A5-45DC-B406-62CDD7E413F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5A560E-D8A5-45DC-B406-62CDD7E413F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E80FDE1E-5588-443C-8272-F90CEC176864} = {0BDAA787-87C9-4A19-A6C8-B8D0E49E0CD8}
+		{AC5A560E-D8A5-45DC-B406-62CDD7E413F0} = {0BDAA787-87C9-4A19-A6C8-B8D0E49E0CD8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A6004C3-4F71-4F7B-ACCB-5606CBEB8F92}
+	EndGlobalSection
+EndGlobal

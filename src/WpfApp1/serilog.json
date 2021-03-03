@@ -1,0 +1,11 @@
+{
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Verbose"
+    },
+    "Using": [ "Serilog.Sinks.Async", "Serilog.Sinks.Map", "Serilog.Sinks.File", "Serilog.Sinks.Console" ],
+    "Properties": {
+      "app": "appdemo"
+    }
+  }
+}
